@@ -33,9 +33,11 @@
   text-decoration: none;
   font-family: 'Mali', cursive;
   color:#0353A4;
+  font-size: 2.5vh;
 }
 
 .nav-button:hover{
   background-color: #0353A4;
   color:#00123391;
 }
+

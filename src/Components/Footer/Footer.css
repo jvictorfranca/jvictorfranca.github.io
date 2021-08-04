@@ -4,13 +4,17 @@
 }
 
 .footer-nav a{
-  width: fit-content;
+  display: flex;
+  align-items: center;
 }
 
 .footer-icon{
   width: 20vh;
 }
 
+.footer-icon:hover{
+  opacity: 0.8;
+}
 
 .portfolio-footer{
   background-color: #0353A4;
