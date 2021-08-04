@@ -1,0 +1,18 @@
+.footer-nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav a{
+  width: fit-content;
+}
+
+.footer-icon{
+  width: 20vh;
+}
+
+
+.portfolio-footer{
+  background-color: #0353A4;
+  background-image: url('/src/Textures/45-degree-fabric-dark.png');
+}

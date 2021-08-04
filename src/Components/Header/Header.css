@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Russo+One&display=swap');
+
+.header-h1{
+  font-family: 'Russo One', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  color: #001233;
+  text-shadow: 2px 0 0 #0353A4, -2px 0 0 #0353A4, 0 2px 0 #0353A4, 0 -2px 0 #0353A4
+  
+}
+
+.portifolio-header{
+  display: flex;
+  flex-direction: column;
+  background-color: #001845;
+  background-image: url('/src/Textures/Texture-Circuit-Board-Pcb-Background-Wallpaper-5962474.png');
+  margin-bottom: 2vh;
+
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  text-align: center;
+}
+
+.nav-button{
+  background-color: #00123391;
+  flex-grow: 1;
+  border:dotted black 1px;
+  padding: 1vh;
+  text-decoration: none;
+  font-family: 'Mali', cursive;
+  color:#0353A4;
+}
+
+.nav-button:hover{
+  background-color: #0353A4;
+  color:#00123391;
+}
