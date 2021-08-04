@@ -10,7 +10,7 @@ class Header extends React.Component{
       <h1 className='header-h1'>Portifólio de João Victor França</h1>
       <nav className='header-nav'>
         <Link className='nav-button' to='/'>Home</Link>
-        <Link className='nav-button' to='/portfolio'>Potfiolio</Link>
+        <Link className='nav-button' to='/portfolio'>Portifólio</Link>
         <Link className='nav-button' to='programming'>Programação</Link>
         <Link className='nav-button' to='/metallurgy'>Metalurgia</Link>
         <Link className='nav-button' to='/about'>Quem sou</Link>

@@ -7,9 +7,13 @@ img.minha-foto{
 }
 
 img.keyboard{
-  width: 300px;
-  margin-right: 50px;
-  animation: rotate 10s linear infinite
+  width: 15%.;
+
+  animation: rotate 10s linear infinite;
+  align-self: center;
+  justify-self: flex-start;
+  
+
 }
 
 @keyframes rotate{

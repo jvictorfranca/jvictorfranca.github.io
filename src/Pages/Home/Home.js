@@ -19,7 +19,8 @@ class Home extends React.Component{
               No rodapé da página estão os caminhos para meu Linkedin e GitHub. Seja bem vindo!</p>
           <p>Atualmente estou fazendo um curso de Web Development na Trybe. 
             O curso foca em Javascript, HTML e CSS, com blocos de Fundamentos, Frontend, Backend e Ciência da Computação.
-            Estou no bloco de FrontEnd, atualmente utilizando o React, e possuo conhecimento básico da linguagem Python</p>
+            Estou no bloco de FrontEnd, atualmente utilizando o React, e possuo conhecimento básico da linguagem Python.
+            Prezo ainda por Softskills, metodologias ágeis, aplicações com acessibilidade, Mobile first, dentre outros. </p>
         </div>
         <img src={keyboard} alt="Icone de teclado" className='keyboard'/>
       </section>
