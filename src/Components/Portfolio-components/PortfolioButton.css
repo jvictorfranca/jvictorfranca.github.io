@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Russo+One&display=swap');
+
+.portfolio-button-icon{
+  width: 5vh;
+}
+
+.portfolio-button{
+  display: flex;
+  align-items: center;
+  color: #001845;
+  font-family: 'Arima Madurai';
+  font-size: 2vh;
+  border: none;
+  width: 100%;
+  border: solid black 1px;
+}
+
+.portfolio-button:hover{
+  background-color: #33415C;
+}
+
+.portfolio-button.selected{
+  background-color: black;
+}

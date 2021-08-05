@@ -10,6 +10,7 @@
 .title-container{
   background-color: #0353A4;
   justify-content: center;
+  
 }
 
 .portfolio-title-img{
@@ -20,3 +21,4 @@
   display: flex;
   align-items: center;
 }
+

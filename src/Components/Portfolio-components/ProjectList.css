@@ -1,0 +1,40 @@
+.projectlist{
+  display: flex;
+  background-color: black;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  height: 50vh;
+}
+
+.projectlist-buttons-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.selected-project-show{
+  background-color: red;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-text{
+  background-color: yellow;
+  color: black;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.img-link{
+  width: 10%;
+}
+
+.selected-project-show a{
+  display: flex;
+  flex-direction: column;
+}

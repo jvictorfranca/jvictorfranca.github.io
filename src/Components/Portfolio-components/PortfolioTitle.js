@@ -7,10 +7,9 @@ import utility from './title-functions'
 class PortifolioTittle extends React.Component{
   
   render(){
-    let array = ['html', 'react']
-    let title = 'hello'
-    let img = utility('html')
-    console.log(img)
+    const {project} = this.props
+    let array = project.used
+    let title = project.name
     return(
       <div className='title-container'>
         <h1 className='portfolio-title'>{title}</h1>
