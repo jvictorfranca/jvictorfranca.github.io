@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mali&family=Martel+Sans:wght@300&family=Russo+One&display=swap');
 .projectlist{
   display: flex;
-  background-color: black;
+  background-color: #001845;
   width: 80%;
   margin: auto;
   margin-top: 2%;
   height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../Textures/why-us-background-texture@2x.png');
+  background-repeat: repeat;
+  background-size: contain;
+  border-radius: 1vh 5vh 5vh 1vh;
 }
 
 .projectlist-buttons-container{
@@ -14,27 +21,43 @@
 
 
 .selected-project-show{
-  background-color: red;
-  width: 90%;
+  background-color: #001233ab;
+  width: 80%;
   height: 90%;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  border-radius: 1vh 5vh 5vh 1vh;
 }
 
 .project-text{
-  background-color: yellow;
+  background-color: #5C677D;
   color: black;
   width: 90%;
-  height: 100%;
+  height: 70%;
   margin: auto;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 3%;
+  font-family: 'Martel Sans', sans-serif;
+  color: #001233;
 }
 
 .img-link{
-  width: 10%;
+  width: 50%;
+  align-self: center;
 }
 
 .selected-project-show a{
   display: flex;
   flex-direction: column;
+  width: 20%;
+  align-items: center;
+  align-self: center;
+  font-family: 'Arima Madurai';
+  text-decoration: none;
+  color: #001233;
 }

@@ -3,13 +3,14 @@
 .portfolio-title{
   
   padding-right: 1%;
-  color: #002855;
+  color: #0353A4;
   font-family:'Russo One';
 }
 
 .title-container{
-  background-color: #0353A4;
+  
   justify-content: center;
+  width: 70%;
   
 }
 

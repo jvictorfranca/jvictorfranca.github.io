@@ -42,7 +42,7 @@ const groupProjects = [
     linkName: 'Pixels Art',
     url: 'https://jvictorfranca.github.io/pixels-art/',
     icon: pixelsart,
-    description: 'Para desenhar artes pixeladas de modo fácil e rápido. Totalmente em javascript Vanilla. Permite escolher cor, clicar e segurar para colorir, redimensionar se quadro para artes mais complexas e até mesmo salvar seus belissimos desenhos. Veja como é fofo um pikachu e se inspire para belissimas artes.' 
+    description: 'Para desenhar artes pixeladas de modo fácil e rápido. Totalmente em javascript Vanilla. Permite escolher cor, clicar e segurar para colorir, redimensionar seu quadro para artes mais complexas e até mesmo salvar seus belissimos desenhos. Veja como é fofo um pikachu e se inspire para belissimas artes.' 
   },
   {
     name: 'Pokedex',

@@ -12,7 +12,9 @@
   font-size: 2vh;
   border: none;
   width: 100%;
-  border: solid black 1px;
+  border: solid 1px #001233; 
+  background-color: #979DAC;
+  
 }
 
 .portfolio-button:hover{
@@ -20,5 +22,18 @@
 }
 
 .portfolio-button.selected{
-  background-color: black;
+  background-color: #001233cc;
+  color: #979DAC;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#001233 
 }
+
+.portfolio-button img{
+  opacity: 0.5;
+}
+
+.portfolio-button.selected img{
+  opacity: 0.8;
+}
+
