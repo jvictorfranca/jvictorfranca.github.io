@@ -12,6 +12,7 @@ const groupProjects = [
     name: 'Movie List Crud',
     used: ['react','javascript', 'html', 'css'],
     linkName: 'MovieList',
+    url:'https://jvictorfranca.github.io/movie-list',
     icon: './projectIcons/movielist.png'
   },
   {

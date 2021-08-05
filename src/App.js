@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import {Helmet} from "react-helmet";
 
 import './App.css';
+
 import Header from './Components/Header/Header';
 import Test from './Components/Test';
 import Home from './Pages/Home/Home';

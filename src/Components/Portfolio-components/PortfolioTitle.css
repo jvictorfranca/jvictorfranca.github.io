@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Russo+One&display=swap');
+
+.portfolio-title{
+  
+  padding-right: 1%;
+  color: #002855;
+  font-family:'Russo One';
+}
+
+.title-container{
+  background-color: #0353A4;
+  justify-content: center;
+}
+
+.portfolio-title-img{
+  height: 4vh;
+}
+
+.title-container{
+  display: flex;
+  align-items: center;
+}
