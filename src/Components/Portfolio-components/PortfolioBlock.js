@@ -1,8 +1,8 @@
 import React from 'react'
+import './PortfolioBlock.css'
 
 import ProjectList from './ProjectList'
 
-import data from '../../Data/projects'
 
 class PortifolioBlock extends React.Component{
   render(){
@@ -10,7 +10,7 @@ class PortifolioBlock extends React.Component{
     console.log(group)
     let {name, description, projects} = group
     return(
-      <section>
+      <section className = 'portfolio-block'>
         <h1 className='title'>{name}</h1>
         <p>{description}</p>
         <ProjectList projects= {projects} />

@@ -44,6 +44,7 @@
   padding-top: 3%;
   font-family: 'Martel Sans', sans-serif;
   color: #001233;
+  overflow: auto;
 }
 
 .img-link{

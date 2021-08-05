@@ -14,9 +14,10 @@ class Home extends React.Component{
         <div className='text-container'>
           <h1 className='home title'>Saudações!</h1>
           <p>Olá, Eu sou João Victor Cristino França, esse é meu Portifólio Web. Sinta-se a vontade para explorar por sua conta os projetos que já realizei.
-            Que tal jogar um belo Jãogeons and Dragons? Isso foi um convite.</p>
+            Que tal jogar um belo Jãogeons and Dragons? Isso foi um convite. Atualmente não há compatibilidade para smartPhones, logo para uma experiência completa recomendo o uso de um computador</p>
           <p>Você está na Home, a barra superior possui a navegação do site, com caminhos para meu portifólio, minhas habilidades, história, etc.
-              No rodapé da página estão os caminhos para meu Linkedin e GitHub. Seja bem vindo!</p>
+              No rodapé da página estão os caminhos para meu Linkedin e GitHub. Como essa é uma singlepage application, caso você saia de Home e atualize a página (F5)
+              ,seu navegador não irá conseguir te redirecionar. Se isso ocorrer, basta apagar o caminho do link após a '/'. Seja bem vindo!</p>
           <p>Atualmente estou fazendo um curso de Web Development na Trybe. 
             O curso foca em Javascript, HTML e CSS, com blocos de Fundamentos, Frontend, Backend e Ciência da Computação.
             Estou no bloco de FrontEnd, atualmente utilizando o React, e possuo conhecimento básico da linguagem Python.

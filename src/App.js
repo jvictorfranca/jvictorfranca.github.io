@@ -10,6 +10,7 @@ import Home from './Pages/Home/Home';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import icon from './Data/projectIcons/lessonslearned.png'
 import Footer from './Components/Footer/Footer';
+import Programming from './Pages/Portfolio/Programming/Programming';
 
 
 function App() {
@@ -17,11 +18,13 @@ function App() {
   <BrowserRouter>
       <Helmet>
         <title>Joao Victor</title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
       </Helmet>
     <Header />
     <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path= '/portfolio' component={Portfolio} />
+      <Route exact path= '/programming' component={Programming} />
     </Switch>
     <Footer />
   </BrowserRouter>

@@ -1,0 +1,39 @@
+.ability-button{
+  display:flex;
+  background-color: yellow;
+  height: 7vh;
+  width: 300px;
+  align-items: stretch;
+  justify-content: stretch;
+  margin: 0;
+  padding: 0;
+}
+
+.ability-button-icon{
+  background-color: green;
+  height: 100%;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ability-button-text{
+  background-color: orange;
+  font-size: 140%;
+  height: 40%;
+  margin:0;
+  padding: 0;
+}
+
+.ability-button-exp-container{
+  width: 100%;
+  height: 100%;
+  background-color: orchid;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+
+}

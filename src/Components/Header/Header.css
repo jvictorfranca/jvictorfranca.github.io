@@ -23,6 +23,7 @@
   justify-content: space-around;
   align-items: baseline;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .nav-button{
