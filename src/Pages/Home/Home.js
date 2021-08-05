@@ -40,7 +40,7 @@ class Home extends React.Component{
       </section>
          
       
-      <Footer />
+      
     </main>
     )
   }

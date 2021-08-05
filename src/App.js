@@ -9,6 +9,7 @@ import Test from './Components/Test';
 import Home from './Pages/Home/Home';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import icon from './Data/projectIcons/lessonslearned.png'
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route exact path= '/portfolio' component={Portfolio} />
     </Switch>
+    <Footer />
   </BrowserRouter>
   );
 }

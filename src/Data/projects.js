@@ -6,13 +6,16 @@ import pokedex from './projectIcons/pokedex.png'
 import todolist from './projectIcons/todolist.png'
 import lessonslearned from './projectIcons/lessonslearned.png'
 import trybewarts from './projectIcons/trybewarts.png'
+import zoofunc from './projectIcons/zoofunc.png'
+import oldportfolio from './projectIcons/oldportfolio.png'
 
 
 
 const groupProjects = [
   {name : 'hallOfFame',
   description: 'a',
-  projects:[{
+  projects:[
+    {
     name: 'RPG Jãogeons and Dragons',
     used: ['javascript', 'html', 'css'],
     linkName: 'RpgJão',
@@ -57,7 +60,8 @@ const groupProjects = [
 {
   name : 'Vanilla',
   description: 'a',
-  projects: [{
+  projects: [
+    {
     name: 'To Do List',
     used: ['javascript', 'html', 'css'],
     linkName: 'toDoList',
@@ -69,7 +73,7 @@ const groupProjects = [
     name: 'Portifólio Velho',
     used: ['html', 'css'],
     linkName: 'oldPortfolio',
-    icon:'',
+    icon:{oldportfolio},
     description: 'Joguim legal' 
   },
   {
@@ -84,6 +88,8 @@ const groupProjects = [
     name: 'Projeto Zoo Functions',
     used: ['javascript'],
     linkName: 'zooFunctions',
+    url:'',
+    icon: {zoofunc},
     description: 'Joguim legal'
   },
   {
@@ -97,9 +103,9 @@ const groupProjects = [
     
   ]
 },
-{name : 'React',
-description: 'a',
-projects: []}
+// {name : 'React',
+// description: 'a',
+// projects: []}
 ]
 
 export default groupProjects

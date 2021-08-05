@@ -10,9 +10,12 @@ import data from '../../Data/projects'
 class ProjectList extends React.Component{
   constructor(props){
     super(props)
+    let {projects} = this.props
+    let projectSelected = projects[0].linkName 
+
 
     this.state = {
-      selected: 'RpgJão'
+      selected: projectSelected
     }
     this.handleClick=this.handleClick.bind(this)
   }
