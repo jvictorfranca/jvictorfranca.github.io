@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ef0e6a8.chunk.css",
-    "main.js": "/static/js/main.47784883.chunk.js",
-    "main.js.map": "/static/js/main.47784883.chunk.js.map",
+    "main.css": "/static/css/main.d88a0a0a.chunk.css",
+    "main.js": "/static/js/main.bf4b7853.chunk.js",
+    "main.js.map": "/static/js/main.bf4b7853.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a7aea4da.js",
     "runtime-main.js.map": "/static/js/runtime-main.a7aea4da.js.map",
     "static/js/2.7bda6658.chunk.js": "/static/js/2.7bda6658.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5df1e54b.chunk.js": "/static/js/3.5df1e54b.chunk.js",
     "static/js/3.5df1e54b.chunk.js.map": "/static/js/3.5df1e54b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1ef0e6a8.chunk.css.map": "/static/css/main.1ef0e6a8.chunk.css.map",
+    "static/css/main.d88a0a0a.chunk.css.map": "/static/css/main.d88a0a0a.chunk.css.map",
     "static/js/2.7bda6658.chunk.js.LICENSE.txt": "/static/js/2.7bda6658.chunk.js.LICENSE.txt",
     "static/media/Footer.css": "/static/media/45-degree-fabric-dark.3a1471f2.png",
     "static/media/CSS.4fe32276.png": "/static/media/CSS.4fe32276.png",
@@ -21,6 +21,8 @@
     "static/media/Linkedin.6adca4e1.png": "/static/media/Linkedin.6adca4e1.png",
     "static/media/React.93a4bdf1.png": "/static/media/React.93a4bdf1.png",
     "static/media/Header.css": "/static/media/Texture-Circuit-Board-Pcb-Background-Wallpaper-5962474.21435df7.png",
+    "static/media/ansys.0ca2ae91.png": "/static/media/ansys.0ca2ae91.png",
+    "static/media/autocad.348c1b03.png": "/static/media/autocad.348c1b03.png",
     "static/media/App.css": "/static/media/cardboard.490a0a58.png",
     "static/media/AbilityList.css": "/static/media/cc4aa0877b182cff15c56b3963fbbd96.8dc5d11c.jpg",
     "static/media/css.36b2d80f.png": "/static/media/css.36b2d80f.png",
@@ -33,20 +35,23 @@
     "static/media/lessonslearned.64cdf824.png": "/static/media/lessonslearned.64cdf824.png",
     "static/media/movielist.d49f7f09.png": "/static/media/movielist.d49f7f09.png",
     "static/media/pixelsart.2fa6e429.png": "/static/media/pixelsart.2fa6e429.png",
+    "static/media/powerpoint.743d031c.png": "/static/media/powerpoint.743d031c.png",
     "static/media/pt.f5070b8b.png": "/static/media/pt.f5070b8b.png",
     "static/media/python.82ab0bdb.png": "/static/media/python.82ab0bdb.png",
     "static/media/r.3925a9d9.png": "/static/media/r.3925a9d9.png",
     "static/media/react.4175957f.png": "/static/media/react.4175957f.png",
     "static/media/rpg.88f4aa89.png": "/static/media/rpg.88f4aa89.png",
+    "static/media/solidworks.32e65221.png": "/static/media/solidworks.32e65221.png",
     "static/media/stopwatch.399755fb.png": "/static/media/stopwatch.399755fb.png",
     "static/media/todolist.33f5ada1.png": "/static/media/todolist.33f5ada1.png",
     "static/media/ProjectList.css": "/static/media/why-us-background-texture@2x.9ef52dcc.png",
+    "static/media/word.218d4bcb.png": "/static/media/word.218d4bcb.png",
     "static/media/zoofunc.68a05611.png": "/static/media/zoofunc.68a05611.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a7aea4da.js",
     "static/js/2.7bda6658.chunk.js",
-    "static/css/main.1ef0e6a8.chunk.css",
-    "static/js/main.47784883.chunk.js"
+    "static/css/main.d88a0a0a.chunk.css",
+    "static/js/main.bf4b7853.chunk.js"
   ]
 }
