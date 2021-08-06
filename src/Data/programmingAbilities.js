@@ -15,14 +15,14 @@ import r from './ProgrammingAbilitiesIcons/r.png'
 
 const abilityGroups = [
   {name : 'Lingagens',
-  description: 'Essas são as linguagens de marcação e programação que sei',
+  description: 'Essas são as linguagens de marcação e programação que sei:',
   abilities:[
     {
     name: 'Javascript',
     knowlege: '80%',
     linkName: 'js',
     icon: js,
-    description: 'Minha linguagem de programação principal. Formou toda minha noção de lógica de programação. Com orientação a objetos ou classes. Utilização e criação de funções básicas e hight-order-functions, interpretação de código, uso de linter para melhor escrita, utilização de testes como Jest e node-assert, importação de bibliotecas, dentre outros' 
+    description: 'Minha linguagem de programação principal. Formou toda minha noção de lógica de programação. Com orientação a objetos ou classes. Utilização e criação de funções básicas e hight-order-functions, interpretação de código, uso de linter para melhor escrita, utilização de testes como Jest e node-assert, importação de bibliotecas, dentre outros.' 
   },
 
   {
@@ -30,7 +30,7 @@ const abilityGroups = [
     knowlege: '70%',
     linkName: 'react',
     icon: react,
-    description: 'Ainda estou me aprimorando em react, mas estou melhor a cada dia. Esse portifólio serve de exemplo, visto que foi inteiramente criado com o React' 
+    description: 'Ainda estou me aprimorando em react, mas estou melhor a cada dia. Esse portifólio serve de exemplo, visto que foi inteiramente criado com o React.' 
   },
 
   {
@@ -46,7 +46,7 @@ const abilityGroups = [
     knowlege: '80%',
     linkName: 'html',
     icon: html,
-    description: 'Noção de HTML semântico para melhor acessibilidade de site. Noções de mobile first e metodologias ágeis também são muito bem vindas ' 
+    description: 'Noção de HTML semântico para melhor acessibilidade de site. Noções de mobile first e metodologias ágeis também são muito bem vindas. ' 
   },
 
   {
@@ -62,36 +62,36 @@ const abilityGroups = [
     knowlege: '5%',
     linkName: 'r',
     icon: r,
-    description: 'Conhecimento superficial sobre linguagem R. Mas pretendo obter maior aprofundamento para futuros tratamentos estatísticos de dados' 
+    description: 'Conhecimento superficial sobre linguagem R. Mas pretendo obter maior aprofundamento para futuros tratamentos estatísticos de dados.' 
   },
   
   ]},
 
-  {name : 'Linguas',
+  {name : 'Línguas',
   description: 'Essas são línguas que aprendi a utilizar no decorrer da minha vida.',
   abilities:[
     {
-    name: 'Portugues',
+    name: 'Português',
     knowlege: '100%',
     linkName: 'pt',
     icon: pt,
-    description: 'Minha língua mãe. Conhecimentos de escrita, fala, leitura e escuta fluentes' 
+    description: 'Minha língua mãe. Conhecimentos de escrita, fala, leitura e escuta fluentes.' 
   },
 
   {
-    name: 'Ingles',
+    name: 'Inglês',
     knowlege: '95%',
     linkName: 'en',
     icon: en,
-    description: 'Minha língua mais avançada. Conhecimentos de escrita, fala, leitura e escuta avançada. Com diploma de FCE. Estudei pelo Number One' 
+    description: 'Minha língua mais avançada. Conhecimentos de escrita, fala, leitura e escuta avançada. Com diploma de FCE. Estudei pelo Number One.' 
   },
 
   {
-    name: 'Frances',
+    name: 'Francês',
     knowlege: '70%',
     linkName: 'fr',
     icon: fr,
-    description: 'Conhecimentos intermediários de fala, escuta, escrita e leitura, com foco em fala e escuta. Estudei pelo Cacs UFMG' 
+    description: 'Conhecimentos intermediários de fala, escuta, escrita e leitura, com foco em fala e escuta. Estudei pelo Cacs-UFMG.' 
   },
 
   {

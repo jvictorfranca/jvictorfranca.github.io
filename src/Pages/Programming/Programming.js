@@ -1,13 +1,17 @@
 import React from 'react'
+import AbilityBlock from '../../Components/Ability-components/AbilityBlock'
 import AbilityList from '../../Components/Ability-components/AbilityList'
 import data from '../../Data/programmingAbilities'
+
+
+
 
 class Programming extends React.Component {
   render (){
     return (
-      <div>
-      <AbilityList abilities={data[0].abilities}/>
-      </div>
+      <main className='programming'>
+        {data.map(group=> <AbilityBlock group={group} />)}
+      </main>
 
     )
   }

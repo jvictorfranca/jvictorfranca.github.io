@@ -1,8 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Portfolio.css';
-
-import ProjectList from '../../Components/Portfolio-components/ProjectList';
 
 import data from '../../Data/projects'
 import PortifolioBlock from '../../Components/Portfolio-components/PortfolioBlock';

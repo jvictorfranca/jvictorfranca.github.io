@@ -1,6 +1,7 @@
 .ability-list{
   background-image: url('../../Textures/cc4aa0877b182cff15c56b3963fbbd96.jpg');
   background-size: contain;
+  border-radius: 0 5vh 5vh 0;
   width: 80%;
   height: fit-content;
   display: flex;
