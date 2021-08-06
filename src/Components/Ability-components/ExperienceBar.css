@@ -1,8 +1,9 @@
 .experience-bar{
-  height: 50%;
+  height: 3.2vh;
   width: 100%;
   display: flex;
   align-items: center;
+  margin-bottom: 1%;
 }
 
 .experience-container{
