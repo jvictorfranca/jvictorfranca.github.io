@@ -15,7 +15,7 @@ class Portfolio extends React.Component{
 
     return(
     <main className='portfolio'>
-     {data.map(group=> <PortifolioBlock group={group}/>)}
+     {data.map(group=> <PortifolioBlock group={group} key={group.name}/>)}
  
      
     </main>

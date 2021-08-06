@@ -7,7 +7,6 @@ import ProjectList from './ProjectList'
 class PortifolioBlock extends React.Component{
   render(){
     let {group} = this.props
-    console.log(group)
     let {name, description, projects} = group
     return(
       <section className = 'portfolio-block'>

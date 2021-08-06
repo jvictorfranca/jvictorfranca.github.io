@@ -5,12 +5,10 @@ import {Helmet} from "react-helmet";
 import './App.css';
 
 import Header from './Components/Header/Header';
-import Test from './Components/Test';
 import Home from './Pages/Home/Home';
 import Portfolio from './Pages/Portfolio/Portfolio';
-import icon from './Data/projectIcons/lessonslearned.png'
 import Footer from './Components/Footer/Footer';
-import Programming from './Pages/Portfolio/Programming/Programming';
+import Programming from './Pages/Programming/Programming';
 
 
 function App() {

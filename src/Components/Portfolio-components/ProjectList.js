@@ -36,7 +36,7 @@ class ProjectList extends React.Component{
     return (
     <section className='projectlist'>
       <div className='projectlist-buttons-container'>
-        {projects.map(project=> <PortfolioButton project={project} action={this.handleClick} isSelected={selected} />)}
+        {projects.map(project=> <PortfolioButton project={project} action={this.handleClick} isSelected={selected} key={project.name} />)}
       </div>
       <div className='selected-project-show'>
         <PortifolioTittle project={project}/>

@@ -1,5 +1,4 @@
 .experience-bar{
-  background-color: red;
   height: 50%;
   width: 100%;
   display: flex;
@@ -19,14 +18,16 @@ border-radius: 10vh;
 }
 
 .experience-background{
-  background-color: gray;
+  background-color: #7D8597;
   width: 100%;
   height: 100%;
   border-radius: 10vh;
 }
 
 .experience{
-  background-color: blue;
+  background-color: #023E7D;
+  background-image: url('../../Textures/gradient.gif');
+  background-size: 100% 100%;
   width: 0%;
   height: 100%;
   transition: linear 2s;
@@ -35,4 +36,5 @@ border-radius: 10vh;
 
 .experience-text{
   font-size: 2vh;
+  color: #001845;
 }

@@ -4,12 +4,14 @@ import ExperienceBar from './ExperienceBar'
 
 class AbilityButton extends React.Component{
   render(){
+    let {ability, isSelected, action} = this.props
+    let { name, icon, linkName } = ability
     return(
-      <button className='ability-button'>
-        <img src="https://static.thenounproject.com/png/1951910-200.png" alt="" className='ability-button-icon' />
-        <div className='ability-button-exp-container'>
-          <p className='ability-button-text'>title</p>
-          <ExperienceBar />
+      <button className={`ability-button ${linkName === isSelected ? 'selected' : ''}`} onClick={()=>{action(linkName)}} name={linkName}>
+        <img src={icon} alt="" className='ability-button-icon' name={linkName}/>
+        <div className='ability-button-exp-container' name={linkName}>
+          <p className='ability-button-text' name={linkName}>{name}</p>
+          <ExperienceBar ability={ability} name={linkName}/>
         </div>
       </button>
     )

@@ -3,7 +3,8 @@ import './ExperienceBar.css'
 
 class ExperienceBar extends React.Component{
   render(){
-    let width = '40%'
+    let {ability} = this.props
+    let width = ability.knowlege
     return(
       <div className='experience-bar'>
         <div className='experience-container'>

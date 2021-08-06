@@ -59,7 +59,7 @@ const groupProjects = [
 ,
 {
   name : 'Vanilla',
-  description: 'Esses são projetos feitos utilizando basicamente HTML CSS e JS vanilla, alguns iniciais sem mesmo JS',
+  description: 'Esses são projetos feitos utilizando basicamente HTML CSS e JS vanilla, alguns iniciais sem mesmo JS.',
   projects: [
     {
     name: 'To Do List',
@@ -67,7 +67,7 @@ const groupProjects = [
     linkName: 'toDoList',
     url:'https://jvictorfranca.github.io/todo-list/',
     icon: todolist,
-    description: 'Fazer uma lista de tarefas nunca foi tão fácil. Possui funções de criar tarefa, subir ou descer uma tarefa, apagar lista, marcar item finalizado, dentre outros' 
+    description: 'Fazer uma lista de tarefas nunca foi tão fácil. Possui funções de criar tarefa, subir ou descer uma tarefa, apagar lista, marcar item finalizado, dentre outros.' 
   },
   {
     name: 'Portifólio Velho',
@@ -82,7 +82,7 @@ const groupProjects = [
     linkName:'lessonsLearned',
     url: 'https://jvictorfranca.github.io/lessons-learned/',
     icon: lessonslearned,
-    description: 'Primeiro projeto da minha vida. Estará sempre por aqui para que possa marcar meu desenvolvimento. Somente usado HTML para me acostumar com a linguagem'
+    description: 'Primeiro projeto da minha vida. Estará sempre por aqui para que possa marcar meu desenvolvimento. Somente usado HTML para me acostumar com a linguagem.'
   },
   {
     name: 'Projeto Zoo Functions',
@@ -98,7 +98,7 @@ const groupProjects = [
     linkName: 'trybeWarts',
     url: 'https://jvictorfranca.github.io/project-trybewarts/',
     icon: trybewarts,
-    description: 'Uma escola de magia da Trybe? Daí vem o nome do projeto (cuidado com a Copyright). Primeiro contato com Forms e um projeto feito em dupla'
+    description: 'Uma escola de magia da Trybe? Daí vem o nome do projeto (cuidado com a Copyright). Primeiro contato com Forms e um projeto feito em dupla.'
   }
     
   ]

@@ -1,11 +1,13 @@
-import js from './programingAbilitiesIcons/javascript.png'
-import react from './programingAbilitiesIcons/react.png'
-import css from './programingAbilitiesIcons/css.png'
-import html from './programingAbilitiesIcons/html.png'
-import pt from './programingAbilitiesIcons/pt.png'
-import en from './programingAbilitiesIcons/en.png'
-import fr from './programingAbilitiesIcons/fr.png'
-import esp from './programingAbilitiesIcons/esp.png'
+import js from './ProgrammingAbilitiesIcons/javascript.png'
+import react from './ProgrammingAbilitiesIcons/react.png'
+import css from './ProgrammingAbilitiesIcons/css.png'
+import html from './ProgrammingAbilitiesIcons/html.png'
+import pt from './ProgrammingAbilitiesIcons/pt.png'
+import en from './ProgrammingAbilitiesIcons/en.png'
+import fr from './ProgrammingAbilitiesIcons/fr.png'
+import esp from './ProgrammingAbilitiesIcons/esp.png'
+import python from './ProgrammingAbilitiesIcons/python.png'
+import r from './ProgrammingAbilitiesIcons/r.png'
 
 
 
@@ -45,6 +47,22 @@ const abilityGroups = [
     linkName: 'html',
     icon: html,
     description: 'Noção de HTML semântico para melhor acessibilidade de site. Noções de mobile first e metodologias ágeis também são muito bem vindas ' 
+  },
+
+  {
+    name: 'Python',
+    knowlege: '20%',
+    linkName: 'python',
+    icon: python,
+    description: 'Conhecimento básico de manipulamento de variáveis e geração de gráficos. Irei me aprofundar mais no futuro visando utilizar redes neurais e tratamento de dados eficiente, mesclando com JS.' 
+  },
+
+  {
+    name: 'R',
+    knowlege: '5%',
+    linkName: 'r',
+    icon: r,
+    description: 'Conhecimento superficial sobre linguagem R. Mas pretendo obter maior aprofundamento para futuros tratamentos estatísticos de dados' 
   },
   
   ]},
