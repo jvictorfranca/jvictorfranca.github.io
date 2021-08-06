@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from '../../Components/Footer/Footer';
 import './Home.css';
 import fotoMinha from './HomeImages/JoaoELo.png'
 import keyboard from './HomeImages/keyboard-icon.png'

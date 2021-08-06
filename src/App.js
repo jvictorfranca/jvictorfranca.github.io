@@ -9,6 +9,7 @@ import Home from './Pages/Home/Home';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Footer from './Components/Footer/Footer';
 import Programming from './Pages/Programming/Programming';
+import Metallurgy from './Pages/Metallurgy/Metallurgy';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route exact path= '/portfolio' component={Portfolio} />
       <Route exact path= '/programming' component={Programming} />
+      <Route exact path= '/metallurgy' component={Metallurgy} />
     </Switch>
     <Footer />
   </BrowserRouter>

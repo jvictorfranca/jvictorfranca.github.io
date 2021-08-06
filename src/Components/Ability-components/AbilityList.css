@@ -22,10 +22,25 @@
   width: 60%;
   background-color: #556380c7;
   margin-left: 1%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 40vh;
+  align-self: center;
 }
 
 .ability-title{
   font-size: 4vh;
   text-align: center;
   color: #001233
+}
+
+.title-image{
+  width: 10% ;
+  margin-left: 2%;
+}
+
+.title-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

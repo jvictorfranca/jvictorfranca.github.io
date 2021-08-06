@@ -1,7 +1,6 @@
 import React from 'react'
 import './AbilityList.css'
 
-import data from '../../Data/programmingAbilities'
 import AbilityButton from './AbilityButton'
 
 class AbilityList extends React.Component {
@@ -28,7 +27,11 @@ class AbilityList extends React.Component {
           {abilities.map(ability=><AbilityButton ability={ability} action={this.handleClick } key= {ability.name} isSelected={selected}/> )}
         </div>
         <div className='show-selected-ability'>
+          <div className='title-container'>
           <h1 className='ability-title'>{ability.name}</h1>
+          <img src={ability.icon} alt="title-icon" className='title-image'/>
+          </div>
+          
           <p className='ability-description'>{ability.description}</p>
         </div>
       </section>

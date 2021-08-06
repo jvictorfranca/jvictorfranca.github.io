@@ -1,6 +1,6 @@
 import './PortfolioButton.css'
 import React from 'react'
-import data from '../../Data/projects'
+
 
 class PortfolioButton extends React.Component{
   render(){

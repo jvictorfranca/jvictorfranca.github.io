@@ -15,7 +15,7 @@ import r from './ProgrammingAbilitiesIcons/r.png'
 
 const abilityGroups = [
   {name : 'Lingagens',
-  description: 'Essas são as linguagens de marcação e programação que sei:',
+  description: 'Pretendo me especializar para tratamento de dados e Data Science no futuro. Atualmente essas são as linguagens de marcação e programação que sei:',
   abilities:[
     {
     name: 'Javascript',

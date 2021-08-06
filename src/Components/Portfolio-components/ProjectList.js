@@ -3,7 +3,6 @@ import PortfolioButton from './PortfolioButton'
 import PortifolioTittle from './PortfolioTitle'
 import './ProjectList.css'
 
-import data from '../../Data/projects'
 
 
 

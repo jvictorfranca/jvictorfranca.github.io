@@ -9,6 +9,7 @@
   padding: 0;
   margin-bottom: 1%;
   border-radius: 1vh;
+  border: none
 }
 
 .ability-button:hover {
@@ -20,10 +21,11 @@
 }
 
 .ability-button-icon{
-  height: 100%;
-  width: 30%;
+  width: 20%;
   justify-content: center;
   align-items: center;
+  margin: 1%;
+  border-radius: 50%;
   
 }
 

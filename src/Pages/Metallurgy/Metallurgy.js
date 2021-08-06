@@ -1,15 +1,15 @@
 import React from 'react'
 import AbilityBlock from '../../Components/Ability-components/AbilityBlock'
 
-import data from '../../Data/programmingAbilities'
+import data from '../../Data/metallurgyAbilities'
 
 
 
 
-class Programming extends React.Component {
+class Metallurgy extends React.Component {
   render (){
     return (
-      <main className='programming'>
+      <main className='metallurgy'>
         {data.map(group=> <AbilityBlock group={group} key={group.name}/>)}
       </main>
 
@@ -17,4 +17,4 @@ class Programming extends React.Component {
   }
 }
 
-export default Programming
+export default Metallurgy
