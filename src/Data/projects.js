@@ -76,6 +76,7 @@ const groupProjects = [
     name: 'Portifólio Velho',
     used: ['html', 'css'],
     linkName: 'oldPortfolio',
+    url: 'https://jvictorfranca.github.io/old-portfolio/',
     icon:oldportfolio,
     description: 'Esse foi o primeiro portifólio que fiz. Sem Javascript algum, apenas para treinar os conhecimentos básicos. Dá para ver progresso né?' 
   },
