@@ -8,6 +8,7 @@ import lessonslearned from './projectIcons/lessonslearned.png'
 import trybewarts from './projectIcons/trybewarts.png'
 import zoofunc from './projectIcons/zoofunc.png'
 import oldportfolio from './projectIcons/oldportfolio.png'
+import onlinestore from './projectIcons/onlinestore.png'
 
 
 
@@ -22,6 +23,14 @@ const groupProjects = [
     url: 'https://jvictorfranca.github.io/RPG-jaogeons-and-dragons/',
     icon: rpg,
     description: 'Que tal enfrentar um dragão com uma party de um guerreiro e um mago? Parece uma missão dificil, e de fato é. O dragão é muito poderoso e dificil de derrotar, mas garanto que se suas capacidades de combate forem avançadas é possível. Vamos jogar!' 
+  },
+  {
+    name: 'Online Store',
+    used: ['javascript','react', 'html', 'css'],
+    linkName: 'onlineStore',
+    url: 'http://jvictorfranca.github.io/project-frontend-online-store',
+    icon: onlinestore,
+    description: 'Uma emulação do site do Mercado Livre. Faz a requisição a API de produtos do proprio mercado livre e as mostra na tela. Singlepage Aplication com caminhos para carrinho de compra, finalização de compra e detalhamento de produto. Uma experiencia completa em compra de produtos online. Meu primeiro projeto em grupo, com a ajuda de Rafael Nery e Pedro Loures' 
   },
   {
     name: 'Stopwatch',
@@ -47,13 +56,7 @@ const groupProjects = [
     icon: pixelsart,
     description: 'Para desenhar artes pixeladas de modo fácil e rápido. Totalmente em javascript Vanilla. Permite escolher cor, clicar e segurar para colorir, redimensionar seu quadro para artes mais complexas e até mesmo salvar seus belíssimos desenhos. Veja como é fofo um pikachu e se inspire para belíssimas artes.' 
   },
-  {
-    name: 'Pokedex',
-    used: ['react','javascript', 'html', 'css'],
-    linkName: 'Pokedex',
-    icon: pokedex,
-    description: 'A pokedex é uma ferramenta para guardar os tipos e caracteristicas de todos os Pokémons. O primeiro passo no react, contando com filtros e várias páginas em uma single page application. Temos que pegar!' 
-  },
+  
   ]}
   
 ,
@@ -103,9 +106,20 @@ const groupProjects = [
     
   ]
 },
-// {name : 'React',
-// description: 'a',
-// projects: []}
+{name : 'React',
+description: 'Meus projetos feitos com a biblioteca React de Javascript, produzida e gerenciada pelo Facebook.',
+projects: [
+
+  {
+    name: 'Pokedex',
+    used: ['react','javascript', 'html', 'css'],
+    linkName: 'Pokedex',
+    url: 'https://jvictorfranca.github.io/pokedex/',
+    icon: pokedex,
+    description: 'A pokedex é uma ferramenta para guardar os tipos e caracteristicas de todos os Pokémons. O primeiro passo no react, contando com filtros e várias páginas em uma single page application. Temos que pegar!' 
+  },
+
+]}
 ]
 
 export default groupProjects
