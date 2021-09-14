@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.fea5d4e9.chunk.css",
-    "main.js": "/static/js/main.bd3fe42d.chunk.js",
-    "main.js.map": "/static/js/main.bd3fe42d.chunk.js.map",
+    "main.js": "/static/js/main.bbd8a466.chunk.js",
+    "main.js.map": "/static/js/main.bbd8a466.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a7aea4da.js",
     "runtime-main.js.map": "/static/js/runtime-main.a7aea4da.js.map",
     "static/js/2.7bda6658.chunk.js": "/static/js/2.7bda6658.chunk.js",
@@ -45,6 +45,7 @@
     "static/media/solidworks.32e65221.png": "/static/media/solidworks.32e65221.png",
     "static/media/stopwatch.399755fb.png": "/static/media/stopwatch.399755fb.png",
     "static/media/todolist.33f5ada1.png": "/static/media/todolist.33f5ada1.png",
+    "static/media/trivia.bee8dffc.png": "/static/media/trivia.bee8dffc.png",
     "static/media/ProjectList.css": "/static/media/why-us-background-texture@2x.9ef52dcc.png",
     "static/media/word.218d4bcb.png": "/static/media/word.218d4bcb.png",
     "static/media/zoofunc.68a05611.png": "/static/media/zoofunc.68a05611.png"
@@ -53,6 +54,6 @@
     "static/js/runtime-main.a7aea4da.js",
     "static/js/2.7bda6658.chunk.js",
     "static/css/main.fea5d4e9.chunk.css",
-    "static/js/main.bd3fe42d.chunk.js"
+    "static/js/main.bbd8a466.chunk.js"
   ]
 }
