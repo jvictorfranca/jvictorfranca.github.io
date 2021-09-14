@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Home.css';
 import fotoMinha from './HomeImages/JoaoELo.png'
 import keyboard from './HomeImages/keyboard-icon.png'

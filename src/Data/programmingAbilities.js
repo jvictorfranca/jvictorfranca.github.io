@@ -27,10 +27,10 @@ const abilityGroups = [
 
   {
     name: 'React',
-    knowlege: '70%',
+    knowlege: '80%',
     linkName: 'react',
     icon: react,
-    description: 'Ainda estou me aprimorando em react, mas estou melhor a cada dia. Esse portifólio serve de exemplo, visto que foi inteiramente criado com o React.' 
+    description: 'Noção de criação de single page applications com React Router Dom. Manipulação de estados locais e globais com state lifting, Redux (e composeWithDevTools), Thunk, e API context. Utilização de jest para testes e React Testing Library. Esse portifólio foi inteiramente criado com React.' 
   },
 
   {

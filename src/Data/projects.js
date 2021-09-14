@@ -9,6 +9,7 @@ import trybewarts from './projectIcons/trybewarts.png'
 import zoofunc from './projectIcons/zoofunc.png'
 import oldportfolio from './projectIcons/oldportfolio.png'
 import onlinestore from './projectIcons/onlinestore.png'
+import trivia from './projectIcons/trivia.png'
 
 
 
@@ -24,9 +25,19 @@ const groupProjects = [
     icon: rpg,
     description: 'Que tal enfrentar um dragão com uma party de um guerreiro e um mago? Parece uma missão dificil, e de fato é. O dragão é muito poderoso e dificil de derrotar, mas garanto que se suas capacidades de combate forem avançadas é possível. Vamos jogar!' 
   },
+
+  {
+    name: 'Trivia',
+    used: ['react','javascript', 'html', 'css'],
+    linkName: 'trivia',
+    url: 'http://jvictorfranca.github.io/trivia',
+    icon: trivia,
+    description: 'Um belo jogo de trivia com temática do Castelo Ratimbum. Feito com metodologias ágeis em grupo com meus colegas Gabriel Ribeiro,, Yasmin Araújo e Carolina Inglethe. As perguntas estão em inglês e é uma bela oportunidade para treinar o idioma. Como estão seus conhecimentos acerca de jogos, geografia, história, esportes, etc? É hora de descobrir ' 
+  },
+
   {
     name: 'Online Store',
-    used: ['javascript','react', 'html', 'css'],
+    used: ['react','javascript', 'html', 'css'],
     linkName: 'onlineStore',
     url: 'http://jvictorfranca.github.io/project-frontend-online-store',
     icon: onlinestore,
