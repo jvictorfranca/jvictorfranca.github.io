@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.fea5d4e9.chunk.css",
-    "main.js": "/static/js/main.bbd8a466.chunk.js",
-    "main.js.map": "/static/js/main.bbd8a466.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a7aea4da.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a7aea4da.js.map",
-    "static/js/2.7bda6658.chunk.js": "/static/js/2.7bda6658.chunk.js",
-    "static/js/2.7bda6658.chunk.js.map": "/static/js/2.7bda6658.chunk.js.map",
-    "static/js/3.5df1e54b.chunk.js": "/static/js/3.5df1e54b.chunk.js",
-    "static/js/3.5df1e54b.chunk.js.map": "/static/js/3.5df1e54b.chunk.js.map",
+    "main.js": "/static/js/main.075871f0.chunk.js",
+    "main.js.map": "/static/js/main.075871f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5c577210.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5c577210.js.map",
+    "static/js/2.9c0d03d0.chunk.js": "/static/js/2.9c0d03d0.chunk.js",
+    "static/js/2.9c0d03d0.chunk.js.map": "/static/js/2.9c0d03d0.chunk.js.map",
+    "static/js/3.056ac910.chunk.js": "/static/js/3.056ac910.chunk.js",
+    "static/js/3.056ac910.chunk.js.map": "/static/js/3.056ac910.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.fea5d4e9.chunk.css.map": "/static/css/main.fea5d4e9.chunk.css.map",
-    "static/js/2.7bda6658.chunk.js.LICENSE.txt": "/static/js/2.7bda6658.chunk.js.LICENSE.txt",
+    "static/js/2.9c0d03d0.chunk.js.LICENSE.txt": "/static/js/2.9c0d03d0.chunk.js.LICENSE.txt",
     "static/media/Footer.css": "/static/media/45-degree-fabric-dark.3a1471f2.png",
     "static/media/CSS.4fe32276.png": "/static/media/CSS.4fe32276.png",
     "static/media/Github.fc816db5.png": "/static/media/Github.fc816db5.png",
@@ -45,15 +45,18 @@
     "static/media/solidworks.32e65221.png": "/static/media/solidworks.32e65221.png",
     "static/media/stopwatch.399755fb.png": "/static/media/stopwatch.399755fb.png",
     "static/media/todolist.33f5ada1.png": "/static/media/todolist.33f5ada1.png",
+    "static/media/trello.b87af532.png": "/static/media/trello.b87af532.png",
     "static/media/trivia.bee8dffc.png": "/static/media/trivia.bee8dffc.png",
+    "static/media/vscode.ef9ba96e.png": "/static/media/vscode.ef9ba96e.png",
+    "static/media/walletcurrency.9965c51c.png": "/static/media/walletcurrency.9965c51c.png",
     "static/media/ProjectList.css": "/static/media/why-us-background-texture@2x.9ef52dcc.png",
     "static/media/word.218d4bcb.png": "/static/media/word.218d4bcb.png",
     "static/media/zoofunc.68a05611.png": "/static/media/zoofunc.68a05611.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7aea4da.js",
-    "static/js/2.7bda6658.chunk.js",
+    "static/js/runtime-main.5c577210.js",
+    "static/js/2.9c0d03d0.chunk.js",
     "static/css/main.fea5d4e9.chunk.css",
-    "static/js/main.bbd8a466.chunk.js"
+    "static/js/main.075871f0.chunk.js"
   ]
 }
