@@ -8,7 +8,9 @@ import fr from './ProgrammingAbilitiesIcons/fr.png'
 import esp from './ProgrammingAbilitiesIcons/esp.png'
 import python from './ProgrammingAbilitiesIcons/python.png'
 import r from './ProgrammingAbilitiesIcons/r.png'
-
+import github from './ProgrammingAbilitiesIcons/github.png'
+import vscode from './ProgrammingAbilitiesIcons/vscode.png'
+import trello from './ProgrammingAbilitiesIcons/trello.png'
 
 
 
@@ -65,6 +67,32 @@ const abilityGroups = [
     description: 'Conhecimento superficial sobre linguagem R. Mas pretendo obter maior aprofundamento para futuros tratamentos estatísticos de dados.' 
   },
   
+  ]},
+
+  {name : 'Ferramentas',
+  description: 'Essas são as ferramentas relacionadas a programação nas quais possuo experiência:',
+  abilities:[
+    {
+    name: 'Git e GitHub',
+    knowlege: '90%',
+    linkName: 'gitHub',
+    icon: github,
+    description: 'Principal ferramenta de versionamento do mercado. Conhecimento de criação de branches, clones, forkings, merges, resets, etc. De forma individual ou em grupo, com resolução de conflitos de merge e utilização do espaço virtual do Github.' 
+  },  
+  {
+    name: 'VS Code',
+    knowlege: '95%',
+    linkName: 'VScode',
+    icon: vscode,
+    description: 'Ferramenta para escrita de códigos. Conhecimentos de instalação de extensões como stylelint, code runner, live server, e muitas outras, permitindo correção e formatação automática para máxima eficiencia e organização.' 
+  },  
+  {
+    name: 'Trello',
+    knowlege: '100%',
+    linkName: 'trello',
+    icon: trello,
+    description: 'Ferramenta de metodologias ágeis que é baseada no método Kamban. Permite criar cards e grupos de cards, clonar sistemas, e manipula-los para um trabalho em grupo de forma assíncrona muito mais organizado e fluido.' 
+  },  
   ]},
 
   {name : 'Línguas',

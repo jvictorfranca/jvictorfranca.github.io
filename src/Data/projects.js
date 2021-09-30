@@ -10,6 +10,8 @@ import zoofunc from './projectIcons/zoofunc.png'
 import oldportfolio from './projectIcons/oldportfolio.png'
 import onlinestore from './projectIcons/onlinestore.png'
 import trivia from './projectIcons/trivia.png'
+import starwars from './projectIcons/starwars.png'
+import walletcurrency from './projectIcons/walletcurrency.png'
 
 
 
@@ -122,6 +124,22 @@ const groupProjects = [
 description: 'Meus projetos feitos com a biblioteca React de Javascript, produzida e gerenciada pelo Facebook.',
 projects: [
 
+  {
+    name: 'Currency wallet',
+    used: ['react','javascript', 'html', 'css'],
+    linkName: 'currencyWallet',
+    url: 'https://jvictorfranca.github.io/currency-wallet/',
+    icon: walletcurrency,
+    description: 'Organização de suas finanças com a cota atual do Dolar, Euro, Bitcoin e várias outras moedas. Organize seus gastos e comece a economizar com facilidade, praticidade e rapidez, em qualquer moeda. O email pode ser qualquer email válido e o password pode ser qualquer texto com mais de 6 letras.' 
+  },
+  {
+    name: 'Star Wars Planets',
+    used: ['react','javascript', 'html', 'css'],
+    linkName: 'starWars',
+    url: 'https://jvictorfranca.github.io/starwars-planets/',
+    icon: starwars,
+    description: 'Curte Star Wars? Então vamos explorar os planetas do universo. Um verdadeiro Data Minning que faz requisição para API e permite filtros de diversas características dos planetas. Qual seria a população alienigena de Endor? Ou a rotação de Alderaan? Agora você pode saber!' 
+  },
   {
     name: 'Pokedex',
     used: ['react','javascript', 'html', 'css'],

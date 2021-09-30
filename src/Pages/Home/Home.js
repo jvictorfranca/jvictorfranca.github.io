@@ -1,4 +1,5 @@
 import React from 'react';
+import Test from '../../Components/Test';
 // import { Link } from 'react-router-dom';
 import './Home.css';
 import fotoMinha from './HomeImages/JoaoELo.png'
