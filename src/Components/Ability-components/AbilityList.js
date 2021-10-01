@@ -1,42 +1,55 @@
-import React from 'react'
-import './AbilityList.css'
+import React from 'react';
+import propTypes from 'prop-types';
 
-import AbilityButton from './AbilityButton'
+import './AbilityList.css';
+
+import AbilityButton from './AbilityButton';
 
 class AbilityList extends React.Component {
-  constructor(props){
-    super(props)
-    let {abilities} = this.props
+  constructor(props) {
+    super(props);
+    let { abilities } = this.props;
     this.state = {
-      selected: abilities[0].linkName
-    }
-    this.handleClick = this.handleClick.bind(this)
+      selected: abilities[0].linkName,
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
-  handleClick(name){
+  handleClick(name) {
     this.setState({
-      selected:name
-    })
+      selected: name,
+    });
   }
-  render () {
-    let {abilities} = this.props
-    let {selected} = this.state
-    let ability = abilities.find(ability => ability.linkName === selected)
+  render() {
+    let { abilities } = this.props;
+    let { selected } = this.state;
+    let ability = abilities.find((ability) => ability.linkName === selected);
     return (
       <section className='ability-list'>
         <div className='ability-buttons-container'>
-          {abilities.map(ability=><AbilityButton ability={ability} action={this.handleClick } key= {ability.name} isSelected={selected}/> )}
+          {abilities.map((ability) => (
+            <AbilityButton
+              ability={ability}
+              action={this.handleClick}
+              key={ability.name}
+              isSelected={selected}
+            />
+          ))}
         </div>
         <div className='show-selected-ability'>
           <div className='title-container'>
-          <h1 className='ability-title'>{ability.name}</h1>
-          <img src={ability.icon} alt="title-icon" className='title-image'/>
+            <h1 className='ability-title'>{ability.name}</h1>
+            <img src={ability.icon} alt='title-icon' className='title-image' />
           </div>
-          
+
           <p className='ability-description'>{ability.description}</p>
         </div>
       </section>
-    )
+    );
   }
 }
 
-export default AbilityList
+AbilityList.propTypes = {
+  abilities: propTypes.arrayOf(propTypes.object).isRequired,
+};
+
+export default AbilityList;

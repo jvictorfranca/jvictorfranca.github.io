@@ -10,6 +10,7 @@ import Portfolio from './Pages/Portfolio/Portfolio';
 import Footer from './Components/Footer/Footer';
 import Programming from './Pages/Programming/Programming';
 import Metallurgy from './Pages/Metallurgy/Metallurgy';
+import Contact from './Pages/Contact/Contact'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Route exact path= '/portfolio' component={Portfolio} />
       <Route exact path= '/programming' component={Programming} />
       <Route exact path= '/metallurgy' component={Metallurgy} />
+      <Route exact path= '/contact' component={Contact} />
     </Switch>
     <Footer />
   </BrowserRouter>

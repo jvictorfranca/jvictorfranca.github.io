@@ -1,4 +1,4 @@
-.experience-bar{
+.experience-bar {
   height: 3.2vh;
   width: 100%;
   display: flex;
@@ -6,27 +6,27 @@
   margin-bottom: 1%;
 }
 
-.experience-container{
-background-color: black;
-width: 100%;
-align-self: stretch;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-padding: 1vh;
-margin-right: 2%;
-border-radius: 10vh;
+.experience-container {
+  background-color: black;
+  width: 100%;
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vh;
+  margin-right: 2%;
+  border-radius: 10vh;
 }
 
-.experience-background{
-  background-color: #7D8597;
+.experience-background {
+  background-color: #7d8597;
   width: 100%;
   height: 100%;
   border-radius: 10vh;
 }
 
-.experience{
-  background-color: #023E7D;
+.experience {
+  background-color: #023e7d;
   background-image: url('../../Textures/gradient.gif');
   background-size: 100% 100%;
   width: 0%;
@@ -35,7 +35,7 @@ border-radius: 10vh;
   border-radius: 10vh;
 }
 
-.experience-text{
+.experience-text {
   font-size: 2vh;
   color: #001845;
 }
