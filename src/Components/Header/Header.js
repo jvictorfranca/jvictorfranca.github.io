@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import propTypes from 'prop-types';
-import ptbrTexts from './Header-text-PT-BR.json';
-import engTexts from './Header-text-ENG.json';
+
+import { headerSwitches } from '../../textSwitches/';
+// import ptbrTexts from './Header-text-PT-BR.json';
+// import engTexts from './Header-text-ENG.json';
 
 import HeaderLanguages from './HeaderLanguages/HeaderLanguages';
 
@@ -12,21 +14,7 @@ import './Header.css';
 class Header extends React.Component {
   render() {
     const { languageStored } = this.props;
-    console.log(languageStored);
-    let text;
-    switch (languageStored) {
-      case 'PT-BR':
-        text = ptbrTexts;
-        break;
-
-      case 'ENG':
-        text = engTexts;
-        break;
-
-      default:
-        text = ptbrTexts;
-    }
-    console.log(text);
+    let text = headerSwitches(languageStored);
     return (
       <header className='portifolio-header'>
         <HeaderLanguages />
