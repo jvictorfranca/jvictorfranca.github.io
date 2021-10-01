@@ -1,22 +1,30 @@
-import React from 'react'
-import './PortfolioBlock.css'
+import React from 'react';
+import propTypes from 'prop-types';
 
-import ProjectList from './ProjectList'
+import './PortfolioBlock.css';
 
+import ProjectList from './ProjectList';
 
-class PortifolioBlock extends React.Component{
-  render(){
-    let {group} = this.props
-    let {name, description, projects} = group
-    return(
-      <section className = 'portfolio-block'>
+class PortifolioBlock extends React.Component {
+  render() {
+    let { group } = this.props;
+    let { name, description, projects } = group;
+    return (
+      <section className='portfolio-block'>
         <h1 className='title'>{name}</h1>
         <p>{description}</p>
-        <ProjectList projects= {projects} />
+        <ProjectList projects={projects} />
       </section>
-    )
+    );
   }
 }
 
+PortifolioBlock.propTypes = {
+  group: propTypes.shape({
+    name: propTypes.string,
+    description: propTypes.string,
+    projects: propTypes.arrayOf(propTypes.object),
+  }),
+};
 
-export default PortifolioBlock
+export default PortifolioBlock;
