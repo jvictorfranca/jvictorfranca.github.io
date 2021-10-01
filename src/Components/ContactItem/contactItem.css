@@ -1,0 +1,56 @@
+
+
+.contact-item-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.contact-item-container p{
+  margin: 0;
+}
+
+.contact-item-container a{
+  margin-top: 0;
+  margin-left: 4vh;
+  color: #001845;
+  font-size: 130%;
+  font-family: 'Martel Sans', sans-serif;
+}
+
+.contact-item-container img{
+  width: 2%;
+  margin: 15px 0;
+  margin-left: 10px;
+}
+
+.contact-item-container h2{
+  
+  margin: 1px;
+  
+}
+
+.contact-item-container div{
+  width: fit-content;
+  display: flex;
+
+}
+
+.contact-item-container button{
+  margin: 10px;
+  background-color: #82dce2;
+  color: #001845;
+  border: solid   #001845 1px;
+  font-size: 15px;
+}
+
+.contact-item-container button:hover{
+  background-color: #82ace2;
+}
+
+.copied-text{
+  color: #4c71a2;
+  font-weight: 800;
+  font-size: 22px;
+}
