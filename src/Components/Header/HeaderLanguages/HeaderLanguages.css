@@ -1,0 +1,27 @@
+.header-language-container {
+  background-color: #243d6d64;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+  width: fit-content;
+  border-radius: 10px;
+  align-self: flex-end;
+  position: absolute;
+}
+
+.header-language-button {
+  padding: 0;
+  margin: 5px;
+  border: none;
+}
+
+.header-language-image {
+  height: 40px;
+  display: flex;
+}
+
+.header-language-image.selected {
+  height: 55px;
+}
