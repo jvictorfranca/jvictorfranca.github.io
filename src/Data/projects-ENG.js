@@ -55,7 +55,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/stopwatch/',
         icon: stopwatch,
         description:
-          'Do you find it to hard to sleep, and when you succeed you cannot wake up by yourself? Stopwatch is for you then. A stopwatch where you can count sheeps to help you to sleep. But be carefull, the alarm clock e too noisy.',
+          'Do you find it to hard to sleep, and when you succeed you cannot wake up by yourself? Stopwatch is for you then. A stopwatch where you can count sheeps to help you to sleep. But be careful, the alarm clock is very noisy.',
       },
       {
         name: 'Movie List Crud',
