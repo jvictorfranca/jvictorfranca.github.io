@@ -41,7 +41,7 @@ AbilityButton.propTypes = {
     icon: propTypes.string,
     linkName: propTypes.string,
   }).isRequired,
-  isSelected: propTypes.bool.isRequired,
+  isSelected: propTypes.string.isRequired,
   action: propTypes.func.isRequired,
 };
 

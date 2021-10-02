@@ -23,9 +23,7 @@ class Contact extends React.Component {
   render() {
     const { copied } = this.state;
     const { languageStored } = this.props;
-    console.log(languageStored);
     const contacts = contactSwitches(languageStored);
-    console.log(contacts);
 
     return (
       <main>

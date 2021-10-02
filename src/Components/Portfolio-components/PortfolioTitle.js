@@ -1,5 +1,5 @@
 import React from 'react';
-import propTypes, { object } from 'prop-types';
+import propTypes from 'prop-types';
 
 import './PortfolioTitle.css';
 import utility from './title-functions';
@@ -30,7 +30,7 @@ class PortifolioTittle extends React.Component {
 
 PortifolioTittle.propTypes = {
   project: propTypes.shape({
-    used: propTypes.arrayOf(object),
+    used: propTypes.arrayOf(propTypes.string),
     name: propTypes.string,
   }),
 };

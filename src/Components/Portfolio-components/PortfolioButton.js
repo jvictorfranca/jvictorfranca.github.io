@@ -35,7 +35,7 @@ PortfolioButton.propTypes = {
     linkName: propTypes.string,
   }),
   action: propTypes.func,
-  isSelected: propTypes.bool,
+  isSelected: propTypes.string,
 };
 
 export default PortfolioButton;

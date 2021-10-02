@@ -21,7 +21,6 @@ class ProjectList extends React.Component {
   handleClick(event) {
     let { name } = event.target;
 
-    console.log(event.target.classList);
     this.setState({
       selected: name,
     });

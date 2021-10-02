@@ -46,7 +46,7 @@ ContactItem.propTypes = {
     link: propTypes.string,
     title: propTypes.string,
   }).isRequired,
-  copied: propTypes.number.isRequired,
+  copied: propTypes.number,
   index: propTypes.number.isRequired,
   setFather: propTypes.func.isRequired,
   languageStored: propTypes.string.isRequired,
