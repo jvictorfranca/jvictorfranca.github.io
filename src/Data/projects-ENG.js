@@ -26,7 +26,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/RPG-jaogeons-and-dragons/',
         icon: rpg,
         description:
-          'Lets a fight a Dragon with a party of a warrior and a mage. It seems hard, and it is indeed. The dragon is very strong and hard to defeat, but i garantee that if you have advanced combat skills its possible.Lets play!',
+          'Lets fight a Dragon with a party of a warrior and a mage. It seems hard, and it is indeed. The dragon is very strong and hard to defeat, but i garantee that if you have advanced combat skills its possible to come with a win.Lets play!',
       },
 
       {
@@ -36,7 +36,7 @@ const groupProjects = [
         url: 'http://jvictorfranca.github.io/trivia',
         icon: trivia,
         description:
-          'A beautiful trivia game themed as "Castelo Ra Tim Bum", a brazilian TV series. Done with agile software development methods with my friends Gabriel Ribeiro, Yasmin Araújo and Carolina Inglethe. How much do you know about sports, Geography, History, Games and others? Lets find out ',
+          'A beautiful trivia game themed as "Castelo Ratimbum", a brazilian TV series. Done with agile software development methods in a group with my colleagues Gabriel Ribeiro, Yasmin Araújo and Carolina Inglethe. How much do you know about sports, Geography, History, Games and others? Lets find out.',
       },
 
       {
@@ -46,7 +46,7 @@ const groupProjects = [
         url: 'http://jvictorfranca.github.io/project-frontend-online-store',
         icon: onlinestore,
         description:
-          'A "Mercado Livre" site emulation. You cannot actually buy things. It makes a request for the API for Mercado Livre Store and shows them in the screen . A Singlepage Aplication with routes to shopping cart, finish the pursharse, products details and more. One full experience in online shopping. My first group project, with the aid of Rafael Nery and Pedro Loures',
+          'A "Mercado Livre" site emulation. You cannot actually buy things. It makes a request for the API for Mercado Livre Store and shows them in the screen . A Singlepage Application with routes for Shopping Cart, finish the purchase, Products Details and more. One full experience in online shopping. My first group project, with the aid of Rafael Nery and Pedro Loures',
       },
       {
         name: 'Stopwatch',
@@ -142,7 +142,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/currency-wallet/',
         icon: walletcurrency,
         description:
-          'Organização de suas finanças com a cota atual do Dolar, Euro, Bitcoin e várias outras moedas. Organize seus gastos e comece a economizar com facilidade, praticidade e rapidez, em qualquer moeda. O email pode ser qualquer email válido e o password pode ser qualquer texto com mais de 6 letras.',
+          'Organise your expenses, using Brazilian Real, Dollars, Bitcoins, Euros, or any currency. All in a fast and easy way. You can use every valid email for loggin in, and any password with more than 6 characters would do it. Happy buying',
       },
       {
         name: 'Star Wars Planets',
@@ -151,7 +151,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/starwars-planets/',
         icon: starwars,
         description:
-          'Curte Star Wars? Então vamos explorar os planetas do universo. Um verdadeiro Data Minning que faz requisição para API e permite filtros de diversas características dos planetas. Qual seria a população alienigena de Endor? Ou a rotação de Alderaan? Agora você pode saber!',
+          'Do you like Star Wars universe? Then lets explore all of its planets. A tue Data Minning that makes an API request and allow manny different filters to search a specific planet. What would be the Endor alien population? Or even the Alderaan planet rotation? Now you are able to know!',
       },
       {
         name: 'Pokedex',
@@ -160,7 +160,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/pokedex/',
         icon: pokedex,
         description:
-          'A pokedex é uma ferramenta para guardar os tipos e caracteristicas de todos os Pokémons. O primeiro passo no react, contando com filtros e várias páginas em uma single page application. Temos que pegar!',
+          'Pokedex is a tool to store the characteristics of all the Pokemons. My first steps in React, with filters, and many pages in a single page application. Gotta catch them all!',
       },
     ],
   },

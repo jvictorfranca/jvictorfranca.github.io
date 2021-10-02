@@ -1,10 +1,15 @@
 import React from 'react';
 import copy from 'clipboard-copy';
 import propTypes from 'prop-types';
+import { connect } from 'react-redux';
+
+import { contactItemSwitches } from '../../textSwitches';
 
 import './contactItem.css';
 
-function ContactItem({ item, copied, index, setFather }) {
+function ContactItem({ item, copied, index, setFather, languageStored }) {
+  const text = contactItemSwitches(languageStored);
+
   return (
     <section className='contact-item-container'>
       <img src={item.image} alt={item.title} />
@@ -25,10 +30,10 @@ function ContactItem({ item, copied, index, setFather }) {
             setFather(index);
           }}
         >
-          Copiar
+          {text['text-button']}
         </button>
       ) : (
-        <p className='copied-text'>Copiado para a clip-board</p>
+        <p className='copied-text'>{text['text-after-button']}</p>
       )}
     </section>
   );
@@ -44,6 +49,11 @@ ContactItem.propTypes = {
   copied: propTypes.number.isRequired,
   index: propTypes.number.isRequired,
   setFather: propTypes.func.isRequired,
+  languageStored: propTypes.string.isRequired,
 };
 
-export default ContactItem;
+const mapStateToProps = (state) => ({
+  languageStored: state.languageReducer.language,
+});
+
+export default connect(mapStateToProps)(ContactItem);

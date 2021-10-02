@@ -1,7 +1,10 @@
 import React from 'react';
+import propTypes from 'prop-types';
+
 import ContactItem from '../../Components/ContactItem/ContactItem';
 
-import contacts from '../../Data/contacts';
+import { connect } from 'react-redux';
+import { contactSwitches } from '../../textSwitches';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -19,6 +22,11 @@ class Contact extends React.Component {
   }
   render() {
     const { copied } = this.state;
+    const { languageStored } = this.props;
+    console.log(languageStored);
+    const contacts = contactSwitches(languageStored);
+    console.log(contacts);
+
     return (
       <main>
         <h1 className='title'>{contacts.title}</h1>
@@ -37,4 +45,12 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact;
+const mapStateToProps = (state) => ({
+  languageStored: state.languageReducer.language,
+});
+
+Contact.propTypes = {
+  languageStored: propTypes.string.isRequired,
+};
+
+export default connect(mapStateToProps)(Contact);
