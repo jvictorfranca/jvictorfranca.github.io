@@ -17,7 +17,7 @@ const groupProjects = [
   {
     name: 'Hall of Fame',
     description:
-      'Esse é o Hall da Fama. Pus aqui os projetos que mais gostei de fazer e do resultado. Confira esses projetos. Para navegar basta clicar nos botões laterias, e para visitar basta clicar no ícone do projeto ou em "Teste aqui". ',
+      'This is the Hall of Fame. Here are the projects that i liked the most doing and the final version. Check them out. To switch between projects projects click on the side buttons, and for visiting a specific one, Click on the project icon or in "Test here". ',
     projects: [
       {
         name: 'RPG Jãogeons and Dragons',
@@ -26,7 +26,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/RPG-jaogeons-and-dragons/',
         icon: rpg,
         description:
-          'Que tal enfrentar um dragão com uma party de um guerreiro e um mago? Parece uma missão dificil, e de fato é. O dragão é muito poderoso e dificil de derrotar, mas garanto que se suas capacidades de combate forem avançadas é possível. Vamos jogar!',
+          'Lets a fight a Dragon with a party of a warrior and a mage. It seems hard, and it is indeed. The dragon is very strong and hard to defeat, but i garantee that if you have advanced combat skills its possible.Lets play!',
       },
 
       {
@@ -36,7 +36,7 @@ const groupProjects = [
         url: 'http://jvictorfranca.github.io/trivia',
         icon: trivia,
         description:
-          'Um belo jogo de trivia com temática do Castelo Ratimbum. Feito com metodologias ágeis em grupo com meus colegas Gabriel Ribeiro, Yasmin Araújo e Carolina Inglethe. As perguntas estão em inglês e é uma bela oportunidade para treinar o idioma. Como estão seus conhecimentos acerca de jogos, geografia, história, esportes, etc? É hora de descobrir ',
+          'A beautiful trivia game themed as "Castelo Ra Tim Bum", a brazilian TV series. Done with agile software development methods with my friends Gabriel Ribeiro, Yasmin Araújo and Carolina Inglethe. How much do you know about sports, Geography, History, Games and others? Lets find out ',
       },
 
       {
@@ -46,7 +46,7 @@ const groupProjects = [
         url: 'http://jvictorfranca.github.io/project-frontend-online-store',
         icon: onlinestore,
         description:
-          'Uma emulação do site do Mercado Livre. Faz a requisição a API de produtos do proprio mercado livre e as mostra na tela. Singlepage Aplication com caminhos para carrinho de compra, finalização de compra e detalhamento de produto. Uma experiencia completa em compra de produtos online. Meu primeiro projeto em grupo, com a ajuda de Rafael Nery e Pedro Loures',
+          'A "Mercado Livre" site emulation. You cannot actually buy things. It makes a request for the API for Mercado Livre Store and shows them in the screen . A Singlepage Aplication with routes to shopping cart, finish the pursharse, products details and more. One full experience in online shopping. My first group project, with the aid of Rafael Nery and Pedro Loures',
       },
       {
         name: 'Stopwatch',
@@ -55,7 +55,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/stopwatch/',
         icon: stopwatch,
         description:
-          'Quer dormir, esta com dificuldades e precisa de um despertador? Stopwatch é o projeto. Um cronômetro dinâmico de contagem regressiva enquanto você pode contar carneirinhos. Mas tome cuidado, o despertador é inusitado.',
+          'Do you find it to hard to sleep, and when you succeed you cannot wake up by yourself? Stopwatch is for you then. A stopwatch where you can count sheeps to help you to sleep. But be carefull, the alarm clock e too noisy.',
       },
       {
         name: 'Movie List Crud',
@@ -64,7 +64,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/movie-list',
         icon: movielist,
         description:
-          'Um site de cinema que emula uma requisição para a API mas na verdade é apenas uma Promise. União de diversos projetos da Trybe garantiram bastantes funcionalidades. Tela de carregamento, possibilidade de inserir filmes, deletar, editar, tudo de modo dinámico com React.',
+          'A movie theater site that fakes a API request but its in fact a Promise. Putting together many Trybe projects made it very functional. Loading screen,adding movies, deleting, editing, everything fast and easy with React.',
       },
       {
         name: 'Pixels Art',
@@ -73,7 +73,7 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/pixels-art/',
         icon: pixelsart,
         description:
-          'Para desenhar artes pixeladas de modo fácil e rápido. Totalmente em javascript Vanilla. Permite escolher cor, clicar e segurar para colorir, redimensionar seu quadro para artes mais complexas e até mesmo salvar seus belíssimos desenhos. Veja como é fofo um pikachu e se inspire para belíssimas artes.',
+          'For drawing pixel arts in a easy and fast way. Totally in Vanilla Javascript.It lets you choose colors, click to colour a pixel, resize your grid to better arts and even save your pretty creations. See how cute a Pikachu is and get inspired for beautiful drawings.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const groupProjects = [
   {
     name: 'Vanilla',
     description:
-      'Esses são projetos feitos utilizando basicamente HTML CSS e JS vanilla, alguns iniciais sem mesmo JS.',
+      'Here are some projects done with Vanilla Javascript, HTML and CSS, some of then without even JS.',
     projects: [
       {
         name: 'To Do List',
@@ -90,16 +90,16 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/todo-list/',
         icon: todolist,
         description:
-          'Fazer uma lista de tarefas nunca foi tão fácil. Possui funções de criar tarefa, subir ou descer uma tarefa, apagar lista, marcar item finalizado, dentre outros.',
+          'Making a to-do list could not be easier. You can create a task, put it up or down the list, clear your list, mark as finished, and more.',
       },
       {
-        name: 'Portifólio Velho',
+        name: 'Old Portfolio',
         used: ['html', 'css'],
         linkName: 'oldPortfolio',
         url: 'https://jvictorfranca.github.io/old-portfolio/',
         icon: oldportfolio,
         description:
-          'Esse foi o primeiro portifólio que fiz. Sem Javascript algum, apenas para treinar os conhecimentos básicos. Dá para ver progresso né?',
+          'This was my first porfolio made. Without any Javascript, only for training Web programming. We can see improvement, cant we?',
       },
       {
         name: 'Projeto Lessons Learned',
@@ -108,16 +108,16 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/lessons-learned/',
         icon: lessonslearned,
         description:
-          'Primeiro projeto da minha vida. Estará sempre por aqui para que possa marcar meu desenvolvimento. Somente usado HTML para me acostumar com a linguagem.',
+          'First project ever. Will always be here for mark my programming improvement. Using only HTML for me to get used to it',
       },
       {
-        name: 'Projeto Zoo Functions',
+        name: 'Project Zoo Functions',
         used: ['javascript'],
         linkName: 'zooFunctions',
         url: '',
         icon: zoofunc,
         description:
-          'Um projeto apenas em Javascript e muito pesado de fazer. Utilizado para gerenciar a estrutura dos funcionarios e animais de um zoológico. Por enquanto não tem interface gráfica (HTML e CSS) mas quem sabe futuramente implante.',
+          'A tough and JS only project. Used to manage animals and employees of a zoo. For now it has no graphic interface, but in the future i intend making one.',
       },
       {
         name: 'Projeto TrybeWarts',
@@ -126,14 +126,14 @@ const groupProjects = [
         url: 'https://jvictorfranca.github.io/project-trybewarts/',
         icon: trybewarts,
         description:
-          'Uma escola de magia da Trybe? Daí vem o nome do projeto (cuidado com a Copyright). Primeiro contato com Forms e um projeto feito em dupla.',
+          'A Trybe magic school? That is where the name comes from (beware with the Copyright) . First time using forms and first couple project as well.',
       },
     ],
   },
   {
     name: 'React',
     description:
-      'Meus projetos feitos com a biblioteca React de Javascript, produzida e gerenciada pelo Facebook.',
+      'My projects using the React Framework, created and managed by Facebook.',
     projects: [
       {
         name: 'Currency wallet',
