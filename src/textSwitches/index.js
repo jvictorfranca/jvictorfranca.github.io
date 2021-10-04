@@ -8,6 +8,8 @@ import contactItemTextENG from '../Components/ContactItem/contact-item-text-eng.
 import contactItemTextPTBR from '../Components/ContactItem/contact-item-text-ptbr.json';
 import contacts from '../Data/contacts';
 import contactsENG from '../Data/contactsENG';
+import ProjectListTextENG from '../Components/Portfolio-components/ProjectListTextsENG.json'
+import ProjectListTextPTBR from '../Components/Portfolio-components/ProjectListTextsPTBR.json'
 
 export function headerSwitches(languageStored) {
   switch (languageStored) {
@@ -73,5 +75,20 @@ export function contactSwitches(languageStored) {
       return contacts;
   }
 }
+
+
+export function projectListSwitches(languageStored) {
+  switch (languageStored) {
+    case 'PT-BR':
+      return ProjectListTextPTBR;
+
+    case 'ENG':
+      return ProjectListTextENG;
+
+    default:
+      return ProjectListTextPTBR;
+  }
+}
+
 
 export default headerSwitches;

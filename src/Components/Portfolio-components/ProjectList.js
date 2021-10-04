@@ -4,7 +4,10 @@ import propTypes from 'prop-types';
 import PortfolioButton from './PortfolioButton';
 import PortifolioTittle from './PortfolioTitle';
 
+import {projectListSwitches} from '../../textSwitches/'
+
 import './ProjectList.css';
+import { connect } from 'react-redux';
 
 class ProjectList extends React.Component {
   constructor(props) {
@@ -26,10 +29,11 @@ class ProjectList extends React.Component {
     });
   }
   render() {
-    let { projects } = this.props;
+    let { projects, languageStored } = this.props;
     let { selected } = this.state;
     let project = projects.find((project) => project.linkName === selected);
     let { icon, url, description } = project;
+    const testText = projectListSwitches(languageStored)
     return (
       <section className='projectlist'>
         <div className='projectlist-buttons-container'>
@@ -48,7 +52,7 @@ class ProjectList extends React.Component {
             {description}
             <a href={url} target='_blank' rel='noreferrer'>
               <img src={icon} alt='link' className='img-link' />
-              Teste aqui
+              {testText.testHere}
             </a>
           </p>
         </div>
@@ -59,6 +63,12 @@ class ProjectList extends React.Component {
 
 ProjectList.propTypes = {
   projects: propTypes.arrayOf(propTypes.object),
+  languageStored: propTypes.string.isRequired,
 };
 
-export default ProjectList;
+const mapStateToProps = (state) => ({
+  languageStored: state.languageReducer.language,
+});
+
+
+export default connect(mapStateToProps)(ProjectList);
