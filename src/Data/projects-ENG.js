@@ -78,6 +78,42 @@ const groupProjects = [
     ],
   },
 
+
+  {
+    name: 'React',
+    description:
+      'My projects using the React Framework, created and managed by Facebook.',
+    projects: [
+      {
+        name: 'Currency wallet',
+        used: ['react', 'javascript', 'html', 'css'],
+        linkName: 'currencyWallet',
+        url: 'https://jvictorfranca.github.io/currency-wallet/',
+        icon: walletcurrency,
+        description:
+          'Organise your expenses, using Brazilian Real, Dollars, Bitcoins, Euros, or any currency. All in a fast and easy way. You can use every valid email for loggin in, and any password with more than 6 characters would do it. Happy buying',
+      },
+      {
+        name: 'Star Wars Planets',
+        used: ['react', 'javascript', 'html', 'css'],
+        linkName: 'starWars',
+        url: 'https://jvictorfranca.github.io/starwars-planets/',
+        icon: starwars,
+        description:
+          'Do you like Star Wars universe? Then lets explore all of its planets. A tue Data Minning that makes an API request and allow manny different filters to search a specific planet. What would be the Endor alien population? Or even the Alderaan planet rotation? Now you are able to know!',
+      },
+      {
+        name: 'Pokedex',
+        used: ['react', 'javascript', 'html', 'css'],
+        linkName: 'Pokedex',
+        url: 'https://jvictorfranca.github.io/pokedex/',
+        icon: pokedex,
+        description:
+          'Pokedex is a tool to store the characteristics of all the Pokemons. My first steps in React, with filters, and many pages in a single page application. Gotta catch them all!',
+      },
+    ],
+  },
+
   {
     name: 'Vanilla',
     description:
@@ -130,40 +166,7 @@ const groupProjects = [
       },
     ],
   },
-  {
-    name: 'React',
-    description:
-      'My projects using the React Framework, created and managed by Facebook.',
-    projects: [
-      {
-        name: 'Currency wallet',
-        used: ['react', 'javascript', 'html', 'css'],
-        linkName: 'currencyWallet',
-        url: 'https://jvictorfranca.github.io/currency-wallet/',
-        icon: walletcurrency,
-        description:
-          'Organise your expenses, using Brazilian Real, Dollars, Bitcoins, Euros, or any currency. All in a fast and easy way. You can use every valid email for loggin in, and any password with more than 6 characters would do it. Happy buying',
-      },
-      {
-        name: 'Star Wars Planets',
-        used: ['react', 'javascript', 'html', 'css'],
-        linkName: 'starWars',
-        url: 'https://jvictorfranca.github.io/starwars-planets/',
-        icon: starwars,
-        description:
-          'Do you like Star Wars universe? Then lets explore all of its planets. A tue Data Minning that makes an API request and allow manny different filters to search a specific planet. What would be the Endor alien population? Or even the Alderaan planet rotation? Now you are able to know!',
-      },
-      {
-        name: 'Pokedex',
-        used: ['react', 'javascript', 'html', 'css'],
-        linkName: 'Pokedex',
-        url: 'https://jvictorfranca.github.io/pokedex/',
-        icon: pokedex,
-        description:
-          'Pokedex is a tool to store the characteristics of all the Pokemons. My first steps in React, with filters, and many pages in a single page application. Gotta catch them all!',
-      },
-    ],
-  },
+
 ];
 
 export default groupProjects;
