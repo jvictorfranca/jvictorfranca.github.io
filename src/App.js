@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import {Helmet} from "react-helmet";
 
 import './App.css';
@@ -15,7 +15,7 @@ import Contact from './Pages/Contact/Contact'
 
 function App() {
   return (
-  <BrowserRouter>
+  <HashRouter basename="/">
       <Helmet>
         <title>Joao Victor</title>
         <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
@@ -29,7 +29,7 @@ function App() {
       <Route exact path= '/contact' component={Contact} />
     </Switch>
     <Footer />
-  </BrowserRouter>
+  </HashRouter>
   );
 }
 
