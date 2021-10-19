@@ -27,7 +27,7 @@ class HeaderLanguages extends React.Component {
               className={
                 language.language === languageStored
                   ? 'header-language-image selected'
-                  : 'header-language-image'
+                  : 'header-language-image not-selected'
               }
             />
           </button>

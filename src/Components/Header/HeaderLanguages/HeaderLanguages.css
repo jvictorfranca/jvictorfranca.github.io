@@ -9,6 +9,8 @@
   border-radius: 10px;
   align-self: flex-end;
   position: absolute;
+  min-height: 65px;
+  min-width: 120px;
 }
 
 .header-language-button {
@@ -20,8 +22,18 @@
 .header-language-image {
   height: 40px;
   display: flex;
+  opacity: 0.7;
+  transition: 1s;
 }
 
 .header-language-image.selected {
   height: 55px;
+  opacity: 1;
+}
+
+
+
+.header-language-image.not-selected:hover{
+  opacity: 1;
+  transition: 0s;
 }
