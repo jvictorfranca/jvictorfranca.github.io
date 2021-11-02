@@ -12,6 +12,7 @@ import onlinestore from './projectIcons/onlinestore.png';
 import trivia from './projectIcons/trivia.png';
 import starwars from './projectIcons/starwars.png';
 import walletcurrency from './projectIcons/walletcurrency.png';
+import recipesapp from './projectIcons/recipes.png';
 
 const groupProjects = [
   {
@@ -27,6 +28,15 @@ const groupProjects = [
         icon: rpg,
         description:
           'Que tal enfrentar um dragão com uma party de um guerreiro e um mago? Parece uma missão dificil, e de fato é. O dragão é muito poderoso e dificil de derrotar, mas garanto que se suas capacidades de combate forem avançadas é possível. Vamos jogar!',
+      },
+      {
+        name: 'Recipes-App',
+        used: ['react','javascript', 'html', 'css'],
+        linkName: 'RecipesApp',
+        url: 'https://jvictorfranca.github.io/recipes-app/',
+        icon: recipesapp,
+        description:
+          'Esta é a aplicação Recipes App. Um site de receitas no idioma Inglês. Produzido por André Pessoa, Diego Demontier, Joao Victor Cristino e Ygor Lage. A aplicação foi feita para mobile, então para melhor testa-la use seu smarthphone. Mesmo assim é possível testa-la em um desktop, basta usar o emulador de smartphone ao lado da tela.',
       },
 
       {
@@ -48,15 +58,7 @@ const groupProjects = [
         description:
           'Uma emulação do site do Mercado Livre. Faz a requisição a API de produtos do proprio mercado livre e as mostra na tela. Singlepage Aplication com caminhos para carrinho de compra, finalização de compra e detalhamento de produto. Uma experiencia completa em compra de produtos online. Meu primeiro projeto em grupo, com a ajuda de Rafael Nery e Pedro Loures',
       },
-      {
-        name: 'Stopwatch',
-        used: ['react', 'javascript', 'html', 'css'],
-        linkName: 'Stopwatch',
-        url: 'https://jvictorfranca.github.io/stopwatch/',
-        icon: stopwatch,
-        description:
-          'Quer dormir, esta com dificuldades e precisa de um despertador? Stopwatch é o projeto. Um cronômetro dinâmico de contagem regressiva enquanto você pode contar carneirinhos. Mas tome cuidado, o despertador é inusitado.',
-      },
+      
       {
         name: 'Movie List Crud',
         used: ['react', 'javascript', 'html', 'css'],
@@ -91,6 +93,15 @@ const groupProjects = [
         icon: walletcurrency,
         description:
           'Organização de suas finanças com a cota atual do Dolar, Euro, Bitcoin e várias outras moedas. Organize seus gastos e comece a economizar com facilidade, praticidade e rapidez, em qualquer moeda. O email pode ser qualquer email válido e o password pode ser qualquer texto com mais de 6 letras.',
+      },
+      {
+        name: 'Stopwatch',
+        used: ['react', 'javascript', 'html', 'css'],
+        linkName: 'Stopwatch',
+        url: 'https://jvictorfranca.github.io/stopwatch/',
+        icon: stopwatch,
+        description:
+          'Quer dormir, esta com dificuldades e precisa de um despertador? Stopwatch é o projeto. Um cronômetro dinâmico de contagem regressiva enquanto você pode contar carneirinhos. Mas tome cuidado, o despertador é inusitado.',
       },
       {
         name: 'Star Wars Planets',
@@ -150,10 +161,10 @@ const groupProjects = [
         name: 'Projeto Zoo Functions',
         used: ['javascript'],
         linkName: 'zooFunctions',
-        url: '',
+        url: 'https://github.com/jvictorfranca/project-zoo-functions',
         icon: zoofunc,
         description:
-          'Um projeto apenas em Javascript e muito pesado de fazer. Utilizado para gerenciar a estrutura dos funcionarios e animais de um zoológico. Por enquanto não tem interface gráfica (HTML e CSS) mas quem sabe futuramente implante.',
+          'Um projeto apenas em Javascript e muito pesado de fazer. Utilizado para gerenciar a estrutura dos funcionarios e animais de um zoológico. Por enquanto não tem interface gráfica (HTML e CSS), por isso o teste é apenas para o repositório.',
       },
       {
         name: 'Projeto TrybeWarts',

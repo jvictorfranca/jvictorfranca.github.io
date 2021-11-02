@@ -11,6 +11,8 @@ import r from './ProgrammingAbilitiesIcons/r.png';
 import github from './ProgrammingAbilitiesIcons/github.png';
 import vscode from './ProgrammingAbilitiesIcons/vscode.png';
 import trello from './ProgrammingAbilitiesIcons/trello.png';
+import sql from './ProgrammingAbilitiesIcons/sql.png';
+import mysqlworkbentch from './ProgrammingAbilitiesIcons/mysql-workbench.png'
 
 const abilityGroups = [
   {
@@ -55,6 +57,15 @@ const abilityGroups = [
       },
 
       {
+        name: 'SQL',
+        knowlege: '70%',
+        linkName: 'sql',
+        icon: sql,
+        description:
+          'Linguagem de pesquisa declarativa, com conhecimentos para CRUD (Create, Read, Update, Delete), manipulação de tabela, filtragem de dados, Querries específicas e dinâmicas. Utilização de funções como JOINS, UNION, WHERE, Stored Functions, Stored Procedures, Triggers e muito mais .',
+      },
+
+      {
         name: 'Python',
         knowlege: '20%',
         linkName: 'python',
@@ -94,6 +105,14 @@ const abilityGroups = [
         icon: vscode,
         description:
           'Ferramenta para escrita de códigos. Conhecimentos de instalação de extensões como stylelint, code runner, live server, e muitas outras, permitindo correção e formatação automática para máxima eficiencia e organização.',
+      },
+      {
+        name: 'My SQL Workbench',
+        knowlege: '70%',
+        linkName: 'mySqlWorkbench',
+        icon: mysqlworkbentch,
+        description:
+          'Interface gráfica para o SQL. Para manibulação de banco de dados relacionais. Conhecimentos de filtragem, manipulação, dumps para manipulação efetiva de arquivos SQL.',
       },
       {
         name: 'Trello',

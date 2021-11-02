@@ -12,6 +12,7 @@ import onlinestore from './projectIcons/onlinestore.png';
 import trivia from './projectIcons/trivia.png';
 import starwars from './projectIcons/starwars.png';
 import walletcurrency from './projectIcons/walletcurrency.png';
+import recipesapp from './projectIcons/recipes.png';
 
 const groupProjects = [
   {
@@ -27,6 +28,15 @@ const groupProjects = [
         icon: rpg,
         description:
           'Lets fight a Dragon with a party of a warrior and a mage. It seems hard, and it is indeed. The dragon is very strong and hard to defeat, but i garantee that if you have advanced combat skills its possible to come with a win.Lets play!',
+      },
+      {
+        name: 'Recipes-App',
+        used: ['react','javascript', 'html', 'css'],
+        linkName: 'RecipesApp',
+        url: 'https://jvictorfranca.github.io/recipes-app/',
+        icon: recipesapp,
+        description:
+          'This is the application Recipes App. As the name suggests its a recipe site. Made by André Pessoa, Diego Demontier, Joao Victor Cristino and Ygor Lage. The application was produced for smarthphones, so, to test it properly use a mobile device. You can still test it in your desktop though, you only need to use the cellphone emulator on the side of the page.',
       },
 
       {
@@ -48,15 +58,7 @@ const groupProjects = [
         description:
           'A "Mercado Livre" site emulation. You cannot actually buy things. It makes a request for the API for Mercado Livre Store and shows them in the screen . A Singlepage Application with routes for Shopping Cart, finish the purchase, Products Details and more. One full experience in online shopping. My first group project, with the aid of Rafael Nery and Pedro Loures',
       },
-      {
-        name: 'Stopwatch',
-        used: ['react', 'javascript', 'html', 'css'],
-        linkName: 'Stopwatch',
-        url: 'https://jvictorfranca.github.io/stopwatch/',
-        icon: stopwatch,
-        description:
-          'Do you find it to hard to sleep, and when you succeed you cannot wake up by yourself? Stopwatch is for you then. A stopwatch where you can count sheeps to help you to sleep. But be careful, the alarm clock is very noisy.',
-      },
+      
       {
         name: 'Movie List Crud',
         used: ['react', 'javascript', 'html', 'css'],
@@ -92,6 +94,15 @@ const groupProjects = [
         icon: walletcurrency,
         description:
           'Organise your expenses, using Brazilian Real, Dollars, Bitcoins, Euros, or any currency. All in a fast and easy way. You can use every valid email for loggin in, and any password with more than 6 characters would do it. Happy buying',
+      },
+      {
+        name: 'Stopwatch',
+        used: ['react', 'javascript', 'html', 'css'],
+        linkName: 'Stopwatch',
+        url: 'https://jvictorfranca.github.io/stopwatch/',
+        icon: stopwatch,
+        description:
+          'Do you find it to hard to sleep, and when you succeed you cannot wake up by yourself? Stopwatch is for you then. A stopwatch where you can count sheeps to help you to sleep. But be careful, the alarm clock is very noisy.',
       },
       {
         name: 'Star Wars Planets',
@@ -150,10 +161,10 @@ const groupProjects = [
         name: 'Project Zoo Functions',
         used: ['javascript'],
         linkName: 'zooFunctions',
-        url: '',
+        url: 'https://github.com/jvictorfranca/project-zoo-functions',
         icon: zoofunc,
         description:
-          'A tough and JS only project. Used to manage animals and employees of a zoo. For now it has no graphic interface, but in the future i intend making one.',
+          'A tough and JS only project. Used to manage animals and employees of a zoo. For now it has no graphic interface, thats why the test here leads to the GithHub Repository.',
       },
       {
         name: 'Projeto TrybeWarts',

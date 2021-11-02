@@ -7,16 +7,34 @@
   display: flex;
   margin: auto;
   padding: 1%;
+  height: fit-content;
 }
 
 .ability-buttons-container{
   width: 30%;
-  height: 100%;
+  height: 450px;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: overlay;
+  padding-right: 10px;
+  align-items: center;
+
 }
+
+.ability-buttons-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.ability-buttons-container::-webkit-scrollbar-track {
+  box-shadow: inset 1px 1px 5px rgba(128, 128, 128, 0.39); 
+  border-radius: 10px;
+}
+
+.ability-buttons-container::-webkit-scrollbar-thumb {
+  background: #556380c7; 
+  border-radius: 10px;
+}
+
 
 .show-selected-ability{
   width: 60%;
@@ -24,8 +42,22 @@
   margin-left: 1%;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 40vh;
+  height: 400px;
   align-self: center;
+}
+
+.show-selected-ability::-webkit-scrollbar {
+  width: 5px;
+}
+
+.show-selected-ability::-webkit-scrollbar-track {
+  box-shadow: inset 1px 1px 5px rgba(128, 128, 128, 0.521); 
+  border-radius: 10px;
+}
+
+.show-selected-ability::-webkit-scrollbar-thumb {
+  background: #4f74c0c7; 
+  border-radius: 10px;
 }
 
 .ability-title{
